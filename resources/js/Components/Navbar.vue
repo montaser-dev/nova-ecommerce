@@ -26,6 +26,12 @@ const logout = () => {
                 >
                     Home
                 </Link>
+                <Link
+    href="/cart"
+    class="text-sm font-medium text-gray-600 hover:text-gray-900"
+>
+    Cart
+</Link>
 
                 <Link
                     href="/account"
