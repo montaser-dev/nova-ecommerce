@@ -146,13 +146,12 @@ const removeItem = (item) => {
                         </span>
                     </div>
 
-                    <button
-                        type="button"
-                        disabled
-                        class="mt-6 w-full cursor-not-allowed rounded-lg bg-gray-300 px-5 py-3 font-medium text-gray-600"
-                    >
-                        Checkout coming soon
-                    </button>
+<Link
+    href="/checkout"
+    class="mt-6 block w-full rounded-lg bg-gray-900 px-5 py-3 text-center font-medium text-white hover:bg-gray-800"
+>
+    Proceed to Checkout
+</Link>
                 </aside>
             </div>
         </main>
